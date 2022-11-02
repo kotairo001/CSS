@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: rgb(246, 232, 253);
+    }
+    h3 {
+        font-size: 2.5em;
+        text-align: center;
+        border: 10px double white ;
+        background-color: rgb(137, 25, 137);
+        color: whitesmoke;
+    }
+    form {
+        font-size: 1.2em;
+        line-height: 2em;
+    }
+    table {
+        padding: 10px;
+        width: 60%;
+    }
+    label {
+        color: rgb(137, 25, 137);
+        font-weight: bold;
+    }
+    input {
+        padding: 15px;
+    }
+    select {
+        padding: 15px;
+    }
+    button {
+        margin-top: 50px;
+        margin-left: 480px;
+        width: 100px;
+        border: outset rgb(245, 235, 255);
+        background-color: rgb(137, 25, 137);
+        color: azure;
+    }
+</style>
+<body>
+        <h3>登録</h3>
+        <form action="/Upgraded/loginform.html" method="get">
+        <table>
+            <tr>
+                <td><label for="name">1. 氏名:</label></td>
+                <td><input type="text" name="name" style="width:200% ;"></td>
+            </tr>
+            <tr>
+                <td><label for="sex">2. 性別:</label></td>
+                <td><input type="checkbox" name="sex" id="" checked>男</td>
+                <td><input type="checkbox" name="sex" id="">女</td>
+            </tr>
+            <tr>
+                <td><label for="mail">3. メール:</label></td>
+                <td><input type="email" name="mail" id="" style="width:200% ;"></td>
+            </tr>
+            <tr>
+                <td><label for="password">4. パスワード</label></td>
+                <td><input type="password" name="password" id="" style="width:200% ;"></td>
+            </tr>
+            <tr>
+                <td><label for="password">5. パスワード確認:</label></td>
+                <td><input type="password" name="password" id="" style="width:200% ;"></td>
+            </tr>
+            <tr>
+                <td><label for="selection">6. 住所:</label></td>
+                <td><select name="selection" id="" style="width:208% ;">
+                    <option value="">選択</option>
+                    <option value="">東京</option>
+                    <option value="">大阪</option>
+                    <option value="">名古屋</option>
+                    <option value="">北海道</option>
+                    <option value="">沖縄</option>
+                </select></td>
+            </tr>
+        </table>
+                <button type="submit">登録</button>
+                <button type="reset">戻る</button>
+
+        </form>
+</body>
+</html>

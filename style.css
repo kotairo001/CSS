@@ -1,0 +1,28 @@
+header {
+    border: 5px dotted rgb(177, 130, 177);
+    width: 50%;
+    margin-left: 400px;
+    text-align: center;
+    color: rgb(59, 12, 59);
+    border-radius: 10%;
+}
+img {
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+section {
+    background-color: thistle; 
+    padding: 20px;
+    line-height: 1.5em;
+    font-size: 1.4em;
+    border: 7px double}
+div {
+    text-indent: 20px;
+}
+span {color: rgb(59, 12, 59); font-weight: bold;
+text-decoration: underline;}
+footer {
+    float: right;
+    font-size: 1.5em;
+}
